@@ -8,10 +8,10 @@ const links = [
 		name: "home",
 		path: "/",
 	},
-	{
-		name: "services",
-		path: "/services",
-	},
+	// {
+	// 	name: "services",
+	// 	path: "/services",
+	// },
 	{
 		name: "resume",
 		path: "/resume",
@@ -42,7 +42,6 @@ const Nav = () => {
 					</Link>
 				);
 			})}{" "}
-			nav
 		</nav>
 	);
 };
