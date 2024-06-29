@@ -22,26 +22,9 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
-    description:
-      "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-    stack: [
-      { name: "Html 5" },
-      { name: "Next.js" },
-      { name: "Tailwindcss" },
-      { name: "Node.Js" },
-    ],
-    image: "/assets/Photo.jpg",
-    live: "",
-    github: "http://github.com/ewanchukwilliam/project",
-  },
-  {
-    num: "02",
     category: "fullstack",
-    title: "project 2",
-    description:
-      "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+    title: "project 1",
+    description: "Developed a Job Application Tracker using React, Express, Sequelize, MySQL, Tailwind CSS, and CORS for secure HTTPS requests and database management. Tracks stats, exports to excel, and uses standard REST requests",
     stack: [
       { name: "Html 5" },
       { name: "Express" },
@@ -52,7 +35,22 @@ const projects = [
     ],
     image: "/assets/Photo.jpg",
     live: "",
-    github: "http://github.com/ewanchukwilliam/project",
+    github: "http://github.com/ewanchukwilliam/jobhunting",
+  },
+  {
+    num: "02",
+    category: "frontend",
+    title: "project 2",
+    description:" a responsive website with HTML, CSS, and JavaScript for practicing and learning chess. Implemented interactive features to enhance user engagement and improve usability.",
+    stack: [
+      { name: "Html 5" },
+      { name: "Next.js" },
+      { name: "Tailwindcss" },
+      { name: "Node.Js" },
+    ],
+    image: "/assets/Photo.jpg",
+    live: "https://williams-portfolio-blush.vercel.app",
+    github: "https://github.com/ewanchukwilliam/portfolio",
   },
 ];
 
