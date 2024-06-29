@@ -1,5 +1,5 @@
-# Use Node.js with Alpine Linux as base image
-FROM node:14-alpine
+# Pull a specific Bun version
+FROM squishyu/bun-alpine:1.0.3
 
 # Set working directory
 WORKDIR /app
