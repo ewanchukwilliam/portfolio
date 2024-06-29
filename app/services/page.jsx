@@ -4,34 +4,34 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowDownRight } from "react-icons/bs";
 const services = [
-  {
-    num: "01",
-    title: "Web Development",
-    description:
-      "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-    href: "",
-  },
-  {
-    num: "02",
-    title: "UI/UX Design",
-    description:
-      "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-    href: "",
-  },
-  {
-    num: "03",
-    title: "Logo Design",
-    description:
-      "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-    href: "",
-  },
-  {
-    num: "04",
-    title: "SEO",
-    description:
-      "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
-    href: "",
-  },
+{
+  num: "01",
+  title: "Web Development",
+  description:
+    "Our web development services leverage the latest technologies including MySQL, Node.js, Express, JavaScript, HTML5, and CSS3 to create dynamic and responsive websites. We specialize in Next.js for server-side rendering and Tailwind CSS for modern, scalable design.",
+  href: "",
+},
+{
+  num: "02",
+  title: "UI/UX Design",
+  description:
+    "We craft user-centric designs using Tailwind CSS, Bootstrap, HTML5, and CSS3 to ensure seamless, intuitive, and visually appealing interfaces. Our focus on usability and aesthetics ensures that your applications provide an exceptional user experience.",
+  href: "",
+},
+{
+  num: "03",
+  title: "Full Stack Development/Server Management",
+  description:
+    "Our full stack development and server management services utilize technologies like Node.js, Express, MySQL, and JavaScript. We handle everything from front-end development with React and Next.js to back-end server management and deployment, ensuring a robust and scalable infrastructure.",
+  href: "",
+},
+{
+  num: "04",
+  title: "SEO",
+  description:
+    "Our SEO services optimize your website using advanced techniques and tools like Google Analytics and SEMrush. We enhance your site's visibility and search rankings, driving organic traffic and improving online presence.",
+  href: "",
+},
 ];
 const Services = () => {
   return (
