@@ -21,9 +21,12 @@ const Photo = () => {
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
           className="w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute"
+  style={{
+    clipPath: 'circle(50% at 50% 50%)' // This clips the image to a circle
+  }}
         >
           <Image
-            src="/assets/baby.png"
+            src="/assets/profile.png"
             priority
             quality={100}
             fill
