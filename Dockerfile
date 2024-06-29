@@ -1,5 +1,5 @@
 # Pull a specific Bun version
-FROM squishyu/bun-alpine:1.0.3
+FROM node:20-alpine
 
 # Set working directory
 WORKDIR /app
